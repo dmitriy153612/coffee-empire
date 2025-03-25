@@ -1,0 +1,7 @@
+@use '@/assets/css/_variables' as vars;
+
+@mixin transition($properties...) {
+  transition-property: $properties;
+  transition-duration: vars.$transition-duration;
+  transition-timing-function: vars.$transition-function;
+}

@@ -1,0 +1,21 @@
+:root {
+  font-family: Montserrat, sans-serif;
+}
+
+html,
+body,
+#__nuxt {
+  min-height: 100vh;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+  margin-block: 0;
+  padding-left: 0;
+  list-style: none;
+}
